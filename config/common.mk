@@ -23,6 +23,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=Titania.ogg \
     ro.config.notification_sound=Tethys.ogg
 
+# NexusLauncher
+PRODUCT_COPY_FILES += \
+    vendor/slim/prebuilt/NexusLauncher/NexusLauncher.apk:system/app/NexusLauncher/NexusLauncher.apk
+
+# Wallpaper
+PRODUCT_COPY_FILES += \
+    vendor/slim/prebuilt/Wallpaper/Wallpaper.apk:system/app/Wallpaper/Wallpaper.apk
+   
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \

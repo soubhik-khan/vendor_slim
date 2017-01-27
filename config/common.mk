@@ -30,6 +30,10 @@ PRODUCT_COPY_FILES += \
 # Wallpaper
 PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/Wallpaper/Wallpaper.apk:system/app/Wallpaper/Wallpaper.apk
+
+# Adaway
+PRODUCT_COPY_FILES += \
+    vendor/slim/prebuilt/Adaway/Adaway.apk:system/app/Adaway/Adaway.apk
    
 # Backup Tool
 PRODUCT_COPY_FILES += \
